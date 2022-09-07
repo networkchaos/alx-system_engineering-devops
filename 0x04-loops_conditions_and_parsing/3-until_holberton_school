@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display Holberton School 10 times using until
+counter=10
+until [ $counter -lt 1 ]; do echo "$string_a"; (( counter-=1)); done
