@@ -1,0 +1,4 @@
+string_a=Holberton School
+counter=0
+while [ $counter -lt 10 ]; do
+     echo "$string_a"
