@@ -2,3 +2,8 @@ string_a=Holberton School
 counter=0
 while [ $counter -lt 10 ]; do
      echo "$string_a"
+        (( counter+=1 ))
+        if [ $counter -eq 9 ]; then
+                echo "Hi"
+        fi
+done
